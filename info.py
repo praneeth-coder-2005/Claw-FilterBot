@@ -19,9 +19,9 @@ def is_enabled(value, default):
 
 # Bot information *
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['22250562'])
+API_HASH = environ['07754d3bdc27193318ae5f6e6c8016af']
+BOT_TOKEN = environ['8017815287:AAHAm0GGnE_jbYOtB10tChppHEmZi4WDRHg']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -61,8 +61,8 @@ QR_CODE_IMG = environ.get('QR_CODE_IMG','https://telegra.ph/file/ca18e2c794f4ea1
 UPI_ID = environ.get('UPI_ID', 'lazydeveloper@ybl') #enter your upi id here - grab it from your online payment methods.
 
 # Others
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/real_MoviesAdda3/186') # Tutorial video link for opening shortlink website 
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortlink website 
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
