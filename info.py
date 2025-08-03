@@ -21,7 +21,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['22250562'])
 API_HASH = environ['07754d3bdc27193318ae5f6e6c8016af']
-BOT_TOKEN = environ['8017815287:AAHAm0GGnE_jbYOtB10tChppHEmZi4WDRHg']
+BOT_TOKEN = environ['8273811459:AAF1DZqdKwmIrQGus3i7Sljfwx7wNeJeuVY']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -169,11 +169,11 @@ DISCUSSION_CHAT_USRNM = "Discusss_Here" #without @
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/Clawmoviez"
+DOWNLOAD_TEXT_URL = "https://t.me/Cinemalu_Adda"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/real_MoviesAdda3"
+CAPTION_BUTTON_URL = "https://t.me/Cinemalu_Adda"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
@@ -191,3 +191,4 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
